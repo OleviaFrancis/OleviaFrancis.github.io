@@ -1,28 +1,30 @@
 body,html{
 	height:100%;
 }
+
+img{
+	width:40%;
+	border-radius:50%;
+}	
+
+
+
 a:link { color: #00f; }
 a:visited { color: #009; }
 a:hover { color: #06f; }
 a:active { color: #0cf; }
 
 
-.grid {
-  display: grid;
-  grid-template-columns: 150px auto 150px;
-  grid-template-rows: repeat(3, 100px);
-  grid-gap: 1em;
-}
+
 
 .wrapper {
-	height: 100%;
 	display: grid;
 	grid-template-columns: 10rem 5rem 10rem;
   	grid-template-rows: auto 1fr auto;
 	grid-template-areas:
-		"header 		header 	header 	header"
-		"sidebar 	sidebar 		main 		main"
-		"sidebar		sidebar 		main		main";
+		"header 	header 		header 	header"
+		"sidebar 	sidebar 	main 	main"
+		"sidebar	sidebar 	main	main";
 	max-width: 940px;
 	width: 100%;
 	margin-left: auto;
