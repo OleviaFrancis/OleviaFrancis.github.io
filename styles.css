@@ -22,6 +22,8 @@ div> hr{
 	height: 4px;
 }
 
+
+
 .wrapper {
 	display: grid;
 	grid-template-columns: 10rem 5rem 10rem;
