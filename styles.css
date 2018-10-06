@@ -5,13 +5,16 @@ img{
 }	
 
 
-
 a:link { color: #00f; }
 a:visited { color: #009; }
 a:hover { color: #06f; }
 a:active { color: #0cf; }
 
-
+h1 {
+	margin-left: 78px;
+	border-style: solid;
+    border-color: white;
+}
 
 
 .wrapper {
@@ -34,8 +37,11 @@ a:active { color: #0cf; }
 }
 
 .header {
+	background-color: #347B98;
+	color: #FFFFFF;
+	text-align: center;
 	grid-area: header;
-	padding: 1rem;
+	padding: 4rem;
 	border-bottom: 1px solid #ccc;
 	@media (max-width: 36rem) {
 		order: 1;
@@ -73,7 +79,7 @@ a:active { color: #0cf; }
 
 html {
 	font-size: 18px;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: Georgia, Arial, sans-serif;
 }
 
 body {
