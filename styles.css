@@ -23,6 +23,7 @@ div> hr{
 }
 
 .wrapper {
+	background-color: white;
 	display: grid;
 	grid-template-columns: 10rem 5rem 10rem;
   	grid-template-rows: auto 1fr auto;
@@ -42,7 +43,7 @@ div> hr{
 }
 
 .header {
-	background-color: #347B98;
+	background-color: #A9A9A9;
 	color: #FFFFFF;
 	text-align: center;
 	grid-area: header;
@@ -95,10 +96,16 @@ div> hr{
 html {
 	font-size: 18px;
 	font-family: Georgia, Arial, sans-serif;
+	background-image: url("display.jpg");
+   	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+	background-size: 100% 100%;	 
 
 }
 
 body {
 	font-size: 1rem;
+
 	
 }
