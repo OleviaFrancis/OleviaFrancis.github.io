@@ -66,6 +66,7 @@ div> hr{
 .aside {
 	grid-area: sidebar;
 	padding: 1rem;
+	margin: 20px;
 	background-color: #eee;
 	border-right: 1px solid #ccc;
 	@media (max-width: 36rem) {
@@ -77,6 +78,7 @@ div> hr{
 .flex-container {
 	display: flex;
 }
+
 
 
 // Setup
