@@ -30,7 +30,7 @@ div> hr{
 		"header 	header 		header 	header"
 		"sidebar 	sidebar 	main 	main"
 		"sidebar	sidebar 	main	main";
-	max-width: 940px;
+	max-width: 1070px;
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -56,6 +56,7 @@ div> hr{
 .main {
 	grid-area: main;
 	padding: 1rem;
+	width: 80%;
 	@media (max-width: 36rem) {
 		order: 1;
 	}
@@ -81,7 +82,7 @@ div> hr{
 	float: right;
 	position: relative;
 	bottom: 2px;
-	left: 100px;
+	left: 170px;
 }
 
 // Setup
