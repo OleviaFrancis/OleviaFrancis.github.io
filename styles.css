@@ -22,8 +22,6 @@ div> hr{
 	height: 4px;
 }
 
-
-
 .wrapper {
 	display: grid;
 	grid-template-columns: 10rem 5rem 10rem;
@@ -79,20 +77,27 @@ div> hr{
 	display: flex;
 }
 
-
+.list{
+	float: right;
+	position: relative;
+	bottom: 2px;
+	left: 100px;
+}
 
 // Setup
 * {
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 html {
 	font-size: 18px;
 	font-family: Georgia, Arial, sans-serif;
+
 }
 
 body {
 	font-size: 1rem;
-	padding: 1rem;
-	margin: 0;
+	
 }
